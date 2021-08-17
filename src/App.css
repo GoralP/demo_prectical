@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+}
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-layout-sider-zero-width-trigger {
+  display: none;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.hideOnMobile {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hideOnMobile {
+    display: block;
+  }
+  .hideOnDesktop {
+    display: block;
+  }
+}
+
+.hideOnDesktop {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .hideOnDesktop {
+    display: none;
+  }
+}
+/*# sourceMappingURL=App.css.map */
+
+.banner-user {
+  height: 100vh;
+}
+.banner-user-elem {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.banner-user-elem .banner-user-title {
+  font-size: 32px;
+  top: 40%;
+}
+.banner-user-elem .banner-user-text {
+  top: 40%;
+}
+.banner-anim-elem .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.edit-profile-image {
+  height: 220px;
+  width: 220px;
+  /* border-radius: 50%; */
+}
+
+.show-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.set-show-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.image-file {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.sell-property-image {
+  width: 270px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.picture-preview {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 220px;
+  width: 220px;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  width: 300px !important;
+  height: 300px !important;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.picture-card .ant-upload-list-item-error {
+  border-color: white !important;
+}
+
+.ant-upload-list-picture .ant-upload-list-item,
+.ant-upload-list-picture-card .ant-upload-list-item {
+  position: relative;
+  height: 66px;
+  padding: 0px !important;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.ant-upload-list-picture-card-container {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.container {
+  display: flex;
+  list-style: none;
+}
+
+.page {
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.active {
+  border: 2px solid #000;
+  font-weight: bold;
+}
+
+.previous {
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.break {
+  padding: 10px;
+}
+
+.next {
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*  */
+
+h1 {
+  color: #6c7ac9;
+}
+
+.pagination {
+  display: flex;
+  /* align-items: center;
+  text-align: center; */
+  justify-content: center;
+  margin-top: 2rem;
+  list-style: none;
+  cursor: pointer;
+  align-items: baseline;
+}
+
+.pagination a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6c7ac9;
+  color: #6c7ac9;
+  margin-right: 0.5rem;
+}
+
+.pagination__link {
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  color: #fff;
+  background: #6c7ac9;
+}
+
+.pagination__link--disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
+
+.previous {
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.drag {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  background: #5c258d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4389a2,
+    #5c258d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4389a2,
+    #5c258d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App:active {
+  box-shadow: 0px 0px 21px 4px rgba(207, 207, 207, 1);
+}
